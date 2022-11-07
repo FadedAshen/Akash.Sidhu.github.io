@@ -1,0 +1,28 @@
+.main {
+    margin-top: 60px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background: rgb(209, 209, 209);
+    color: black;
+}
