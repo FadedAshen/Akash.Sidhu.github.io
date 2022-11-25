@@ -1,5 +1,5 @@
 function displayA() {
-    var x= document.getElementById("hideA");
+    var x = document.getElementById("hideA");
     var y = document.getElementById("clickA");
     if (x.style.display === "none") {
         x.style.display ="block";
@@ -12,7 +12,7 @@ function displayA() {
 
 
 function displayP() {
-    var x= document.getElementById("hideP");
+    var x = document.getElementById("hideP");
     var y = document.getElementById("clickP");
     if (x.style.display === "none") {
         x.style.display ="block";
@@ -24,7 +24,7 @@ function displayP() {
 }
 
 function displayF() {
-    var x= document.getElementById("hideF");
+    var x = document.getElementById("hideF");
     var y = document.getElementById("clickF");
     if (x.style.display === "none") {
         x.style.display ="block";
@@ -36,7 +36,7 @@ function displayF() {
 }
 
 function displayL() {
-    var x= document.getElementById("hideL");
+    var x = document.getElementById("hideL");
     var y = document.getElementById("clickL");
     if (x.style.display === "none") {
         x.style.display ="block";
