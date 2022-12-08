@@ -60,3 +60,20 @@
     display: block;
     padding: 3px;
 }
+
+.portTxt {
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.portImg img {
+    width: 50%;
+    height: auto;
+}
+
+.portCont {
+    display: flex;
+    flex-direction: row;
+}
