@@ -95,6 +95,19 @@
     flex-direction: row;
 }
 
+
+.aiTxt {
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.aiCont {
+    display: flex;
+    flex-direction: row;
+}
+
 .javaTxt {
     width: 35%;
     margin: 5px;
