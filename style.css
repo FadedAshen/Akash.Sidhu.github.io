@@ -78,6 +78,23 @@
     flex-direction: row;
 }
 
+.arTxt {
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.arImg img {
+    width: 50%;
+    height: auto;
+}
+
+.arCont {
+    display: flex;
+    flex-direction: row;
+}
+
 .javaTxt {
     width: 35%;
     margin: 5px;
