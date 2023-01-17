@@ -124,3 +124,21 @@
     display: flex;
     flex-direction: row;
 }
+
+.unityTxt {
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.unityImg img {
+    width: 50%;
+    height: auto;
+}
+
+.unityCont {
+    display: flex;
+    margin-top: 250px;
+    flex-direction: row;
+}
