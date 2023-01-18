@@ -142,3 +142,21 @@
     margin-top: 250px;
     flex-direction: row;
 }
+
+.platTxt {
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.platImg img {
+    width: 100%;
+    height: auto;
+}
+
+.platCont {
+    display: flex;
+    margin-top: 250px;
+    flex-direction: row;
+}
