@@ -61,14 +61,16 @@
     padding: 3px;
 }
 
-.portTxt {
+
+
+.pTxt {
     width: 45%;
     margin: 5px;
     padding: 5px;
 
 }
 
-.portImg img {
+.pImg img {
     width: 50%;
     height: auto;
 }
@@ -78,29 +80,9 @@
     flex-direction: row;
 }
 
-.arTxt {
-    width: 45%;
-    margin: 5px;
-    padding: 5px;
-
-}
-
-.arImg img {
-    width: 50%;
-    height: auto;
-}
-
 .arCont {
     display: flex;
     flex-direction: row;
-}
-
-
-.aiTxt {
-    width: 45%;
-    margin: 5px;
-    padding: 5px;
-
 }
 
 .aiCont {
@@ -108,33 +90,9 @@
     flex-direction: row;
 }
 
-.javaTxt {
-    width: 35%;
-    margin: 5px;
-    padding: 5px;
-
-}
-
-.javaImg iframe {
-    width: 200%;
-    height: 200%;
-}
-
 .javaCont {
     display: flex;
     flex-direction: row;
-}
-
-.unityTxt {
-    width: 45%;
-    margin: 5px;
-    padding: 5px;
-
-}
-
-.unityImg img {
-    width: 50%;
-    height: auto;
 }
 
 .unityCont {
@@ -143,11 +101,21 @@
     flex-direction: row;
 }
 
-.platTxt {
-    width: 45%;
-    margin: 5px;
-    padding: 5px;
+.platCont {
+    display: flex;
+    flex-direction: row;
+}
 
+.mcCont {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.javaImg iframe {
+    width: 200%;
+    height: 200%;
 }
 
 .platImg img {
@@ -155,24 +123,7 @@
     height: auto;
 }
 
-.platCont {
-    display: flex;
-    flex-direction: row;
-}
-
-.mcTxt {
-    width: 45%;
-    margin: 5px;
-    padding: 5px;
-
-}
-
 .mcImg img {
     width: 30%;
     height: auto;
-}
-
-.mcCont {
-    display: flex;
-    flex-direction: row;
 }
