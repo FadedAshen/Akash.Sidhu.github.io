@@ -61,7 +61,10 @@
     padding: 3px;
 }
 
-
+.mePic img {
+    width: 10%;
+    height: auto;
+}
 
 .pTxt {
     width: 45%;
