@@ -157,6 +157,22 @@
 
 .platCont {
     display: flex;
-    margin-top: 250px;
+    flex-direction: row;
+}
+
+.mcTxt {
+    width: 45%;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.mcImg img {
+    width: 30%;
+    height: auto;
+}
+
+.mcCont {
+    display: flex;
     flex-direction: row;
 }
