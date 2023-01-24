@@ -31,6 +31,11 @@
     list-style-type: none;
 }
 
+.contact ul {
+    float: right;
+    margin-right: 15px;
+}
+
 .contact img {
     width: 50px;
     height: 50px;
