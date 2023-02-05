@@ -14,11 +14,21 @@ ul {
 }
 
 .navbar {
+    display: flex;
+    flex-direction: none;
+    align-items: center;
+    padding-left: 24px;
     overflow: hidden;
     background-color: lightgray;
     position: fixed;
     top: 0;
     width: 100%;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(73,154,200,1);
 }
 
 .navbar a {
@@ -32,19 +42,6 @@ ul {
     font-size: 18px;
     font-weight: bold;
     margin-top: 3px;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: none;
-    align-items: center;
-    padding-left: 24px;
-
-    position: fixed;
-    left: 0px;
-    top: 0px;
-
-    background: rgba(73,154,200,1);
 }
 
 .navbar h1 {
