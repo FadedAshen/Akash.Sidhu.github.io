@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Moon+Dance&family=Raleway&family=Roboto:wght@300&display=swap');
+
 body {
-    background-color: lightgray;
     text-align: center;
 }
 
@@ -33,16 +34,61 @@ ul {
     margin-top: 3px;
 }
 
-.navbar a:hover {
-    background: rgb(182, 181, 181);
-    color: black;
+.navbar {
+    display: flex;
+    flex-direction: none;
+    align-items: center;
+    padding-left: 24px;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(73,154,200,1);
 }
 
-.contact ul {
-    list-style-type: none;
-    float: right;
-    margin-right: 20px;
-    list-style-position: inside;
+.navbar h1 {
+    width: 314px;
+    height: 42px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.2em;
+
+    color: white;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.navbar a {
+    width: 112px;
+    height: 28px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: white;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.links {
+    margin-left: auto;
+}
+
+.navbar a:hover {
+    background: rgb(58, 126, 165);
 }
 
 .languages button {
