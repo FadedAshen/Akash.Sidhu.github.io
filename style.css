@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Moon+Dance&family=Raleway&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Moon+Dance&family=Raleway&family=Roboto+Mono&family=Roboto:wght@300&display=swap');
+
+html {
+    font-family: 'Roboto Mono', monospace;
+}
 
 .main {
     /* margin-top: 80px; */
@@ -6,10 +11,11 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-    gap: 64px;
+    gap: 0px;
     margin-left: 356px;
     margin-right: 356px;
-
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
 ul {
@@ -84,6 +90,18 @@ ul {
 
 }
 
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.07em;
+
+    color: rgba(73, 154, 200, 1);
+}
+
+
 .links {
     margin-left: auto;
 }
@@ -95,7 +113,7 @@ ul {
 .languages button {
     background: none;
     border: none;
-    color: blue;
+    color: rgba(73, 154, 200, 1);
     font-size: 16px;
 }
 
