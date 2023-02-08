@@ -6,7 +6,6 @@ html {
 }
 
 .main {
-    /* margin-top: 80px; */
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -146,6 +145,28 @@ h2 {
     padding: 5px;
 }
 
+.languageBubbles {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.languageBubbles p {
+    font-family: 'Roboto Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.07em;
+    padding: 8px 16px;
+    gap: 10px;
+    margin: 12px;
+
+    color: white;
+    background: rgba(73, 154, 200, 1);
+    border-radius: 2px;
+}
+
 .pImg img {
     width: 50%;
     height: auto;
@@ -188,8 +209,8 @@ h2 {
 }
 
 .javaImg iframe {
-    width: 200%;
-    height: 200%;
+    width: 250%;
+    height: 125%;
 }
 
 .platImg img {
