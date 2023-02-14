@@ -3,6 +3,7 @@
 
 html {
     font-family: 'Roboto Mono', monospace;
+    color: rgba(91, 91, 91, 1);
 }
 
 .main {
@@ -100,6 +101,26 @@ h2 {
     color: rgba(73, 154, 200, 1);
 }
 
+.me p {
+    width: 1000px;
+    height: auto;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.07em;
+}
+
+.experience p {
+    width: 1000px;
+    height: auto;
+
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: 0.07em;
+}
 
 .links {
     margin-left: auto;
