@@ -198,6 +198,11 @@ h2 {
     height: auto;
 }
 
+.osrsCont {
+    display: flex;
+    flex-direction: row;
+}
+
 .portCont {
     display: flex;
     flex-direction: row;
