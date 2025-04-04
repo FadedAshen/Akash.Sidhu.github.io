@@ -193,7 +193,7 @@ h2 {
     border-radius: 2px;
 }
 
-.pImg img {
+.osrsImg img {
     width: 50%;
     height: auto;
 }
@@ -201,6 +201,11 @@ h2 {
 .osrsCont {
     display: flex;
     flex-direction: row;
+}
+
+.pImg img {
+    width: 50%;
+    height: auto;
 }
 
 .portCont {
